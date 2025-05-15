@@ -819,8 +819,8 @@ function formatCoins(coins, element) {
     }
     if (leftOver == 0 && coins > 0) {element.children[3].textContent = ""; return}
     var text = String(Math.floor(leftOver)) + "c"
-    element.children[3].textContent = text
-    element.children[3].style.color = colors["c"]
+    element.children[7].textContent = text
+    element.children[7].style.color = colors["c"]
 }
 
 function getTaskElement(taskName) {
