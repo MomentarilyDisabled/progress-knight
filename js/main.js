@@ -797,8 +797,11 @@ function format(number) {
 }
 
 function formatCoins(coins, element) {
-    var tiers = ["p", "g", "s"]
+    var tiers = ["r", "S", "e", "p", "g", "s"]
     var colors = {
+        "r": "#ed333b",
+        "S": "#6666ff",
+        "e": "#2ec27e",
         "p": "#79b9c7",
         "g": "#E5C100",
         "s": "#a8a8a8",
